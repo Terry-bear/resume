@@ -9,7 +9,10 @@
 
 .md h1, .md h2, .md h3, .md h4, .md h5, .md h6 {
   display: inline-block;
-  color: #ddd;
+  color:transparent;
+  font-weight: bold;
+  background: linear-gradient(45deg, rgb(136, 241, 255) 0%, rgba(0, 162, 255, 0.5)  100%);
+  -webkit-background-clip: text;
   border-bottom: 1px solid #ccc;
   padding-bottom: 5px;
 }
@@ -17,6 +20,16 @@
 .md li {
   margin: 5px 0;
   line-height: 1.5;
+  color: #fff;
+  text-shadow: 0 0 1px rgba(136, 237, 255, 0.218),
+  0 0 1px rgba(136, 237, 255, 0.218),
+  0 0 1px rgba(136, 237, 255, 0.218),
+  0 0 1px rgba(136, 237, 255, 0.218),
+  0 0 1px rgba(136, 237, 255, 0.218),
+  0 0 1px rgba(136, 237, 255, 0.218),
+  0 0 1px rgba(136, 237, 255, 0.218),
+  0 0 1px rgba(136, 237, 255, 0.218),
+  0 0 1px rgba(136, 237, 255, 0.218);
 }
 
 .md h1, .md h2, .md h3, .md h4, .md h5, .md h6, .md ul, .md p {
@@ -33,7 +46,7 @@ pre:hover{
 }
 
 /**
- * 很有意思吧,这个是学习 Zoom 前端架构师 黄轶的 vue 实现.
- * 还有很多想和你分享的
+ * 很有意思吧。
+ * 还有很多想和你分享的。
  * https://www.elixir-zh.cn/
  */

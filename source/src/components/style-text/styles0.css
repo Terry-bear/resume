@@ -22,7 +22,10 @@
  */
 
 html {
-  background: rgb(63, 82, 99);
+  background-color: rgb(97, 128, 155);
+  background-image: linear-gradient(rgba(177, 248, 253, 0.247), rgba(0, 0, 0, 0.041)), url(http://img.netbian.com/file/2019/0125/01a2990f9e6125fa93b01441aab2cc2e.jpg);
+  background-size: 100%;
+  transition: all .3s ease-out;
 }
 
 /***
@@ -43,14 +46,16 @@ pre, a {
 
 pre:not(:empty) {
   overflow: auto;
-  background: rgb(48, 48, 48);
+  background: black;
+  opacity: 0.8;
   border: 1px solid #ccc;
+  border-radius: 5px;
   max-height: 44.6%;
   width: 49%;
   font-size: 14px;
   font-family: monospace;
   padding: 10px 10px 20px;
-  box-shadow: -4px 4px 2px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
   white-space: pre-wrap;
   outline: 0;
 }
